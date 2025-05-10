@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manpreet Kaur | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white text-[#333333] font-sans">
+
+  <!-- 🔹 Navbar -->
+  <nav class="flex justify-between items-center px-6 py-4 bg-white border-b border-gray-200 shadow-sm">
+    <h1 class="text-2xl font-bold text-[#0052CC]">Manpreet Kaur</h1>
+    <ul class="hidden md:flex gap-6">
+      <li><a href="#about" class="hover:text-[#0052CC]">About</a></li>
+      <li><a href="#projects" class="hover:text-[#0052CC]">Projects</a></li>
+      <li><a href="#skills" class="hover:text-[#0052CC]">Skills</a></li>
+      <li><a href="#contact" class="hover:text-[#0052CC]">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Hero -->
+  <section class="text-center py-20 px-6 bg-white">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Manpreet 👋</h2>
+    <p class="text-lg text-[#555555] max-w-2xl mx-auto">
+      A web developer with strong front-end & back-end skills, and a Master's in Cybersecurity. I love creating responsive, secure, and user-friendly web applications.
+    </p>
+    <a href="#projects" class="mt-6 inline-block bg-[#0052CC] text-white py-2 px-6 rounded hover:bg-[#90CDF4] transition">View Projects</a>
+  </section>
+
+  <!-- 🔹 About -->
+  <section id="about" class="px-6 py-16 bg-[#F9F9F9]">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold text-[#0052CC] mb-6">About Me</h3>
+      <p class="text-[#555555] text-lg leading-relaxed">
+        I'm a full-stack web developer with over 3 years of experience building websites using HTML5, CSS3, JavaScript, PHP, and WordPress. I have a strong understanding of responsive design, performance optimization, and clean UI development. My MSc in Cybersecurity adds an edge to my approach—focusing on security-first web applications.
+      </p>
+    </div>
+  </section>
+
+  <!-- 🔹 Projects -->
+  
+<section id="projects" class="px-6 py-16 bg-white">
+  <div class="max-w-xl mx-auto text-center">
+    <h3 class="text-3xl font-semibold text-[#0052CC] mb-10">Projects</h3>
+
+    <!-- Carousel container -->
+    <div class="relative">
+      <!-- Slides -->
+      <div id="carousel" class="relative overflow-hidden">
+        <div class="carousel-track transition-all duration-500 ease-in-out flex w-full">
+          <!-- Card 1 -->
+          <div class="w-full shrink-0 p-4 bg-[#F9F9F9] rounded-lg shadow-md border border-gray-200">
+            <h4 class="text-xl font-bold mb-2">Mini Shop</h4>
+            <p class="text-[#555555] mb-3">A responsive e-commerce landing page built with Tailwind CSS, featuring a product carousel and testimonials.</p>
+            <a href="https://kaurmann.github.io/mini-shop/" class="mt-6 inline-block bg-[#0052CC] text-white py-2 px-6 rounded hover:bg-[#90CDF4] transition">View Live</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="w-full shrink-0 p-4 bg-[#F9F9F9] rounded-lg shadow-md border border-gray-200">
+            <h4 class="text-xl font-bold mb-2">Weather App</h4>
+            <p class="text-[#555555] mb-3">A simple web app that shows real-time weather using the OpenWeatherMap API.</p>
+            <a href="https://kaurmann.github.io/weather-app/" class="mt-6 inline-block bg-[#0052CC] text-white py-2 px-6 rounded hover:bg-[#90CDF4] transition">View Live</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="w-full shrink-0 p-4 bg-[#F9F9F9] rounded-lg shadow-md border border-gray-200">
+            <h4 class="text-xl font-bold mb-2">Vape Zone</h4>
+            <p class="text-[#555555] mb-3">WordPress e-commerce site for a vape brand. I handled everything: theme, payments, SEO, hosting & launch.</p>
+            <a href="http://vapevillagevape.com/" class="mt-6 inline-block bg-[#0052CC] text-white py-2 px-6 rounded hover:bg-[#90CDF4] transition">View Live</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="flex justify-between mt-6">
+        <button onclick="prevSlide()" class="px-4 py-2 bg-[#0052CC] text-white rounded hover:bg-[#90CDF4]">Prev</button>
+        <button onclick="nextSlide()" class="px-4 py-2 bg-[#0052CC] text-white rounded hover:bg-[#90CDF4]">Next</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- 🔹 Skills -->
+  <section id="skills" class="bg-[#F9F9F9] px-6 py-16">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold text-[#0052CC] mb-6">Skills</h3>
+      <ul class="grid grid-cols-3 md:grid-cols-4 gap-4 text-[#555555] text-lg">
+        <li>HTML5</li>
+        <li>CSS3 / Tailwind/ Bootstrap</li>
+        <li>JavaScript</li>
+        <li>PHP & MySQL</li>
+        <li>WordPress & Elementor</li>
+        <li>Git & GitHub</li>
+        <li>Codeigniter</li>
+        <li>Computer Networking</li>
+        <li>SEO / SMM</li>
+        <li>Photoshop </li>
+        <li>Python</li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🔹 Contact -->
+  <section id="contact" class="px-6 py-20 text-center bg-white">
+    <h3 class="text-3xl font-semibold text-[#0052CC] mb-6">Get In Touch</h3>
+    <p class="text-[#555555] text-lg mb-4">Open to collaborations, freelance projects, and full-time roles.</p>
+    <a href="mailto:mk514755@gmail.com" class="bg-[#0052CC] text-white py-2 px-6 rounded hover:bg-[#90CDF4] transition">Email Me</a>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer class="bg-[#F9F9F9] text-center text-[#555555] py-6 text-sm border-t border-gray-200">
+    © 2025 Manpreet Kaur · All rights reserved.
+  </footer>
+
+</body>
+
+<script>
+  const track = document.querySelector('.carousel-track');
+  const totalSlides = track.children.length;
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const offset = -currentIndex * 100;
+    track.style.transform = `translateX(${offset}%)`;
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateCarousel();
+  }
+</script>
+  
+
+</html>

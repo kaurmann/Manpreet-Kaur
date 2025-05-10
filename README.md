@@ -3,7 +3,7 @@
 Welcome to my professional portfolio website!  
 This project represents both my **technical skills** and **personal style** as a web developer. It's fully responsive, fast-loading, and designed with a clean layout to provide a seamless experience across all devices.
 
-🔗 **Live Demo:** [[https://kaurmann.github.io/my-portfolio/](https://kaurmann.github.io/my-portfolio/)](https://kaurmann.github.io/Manpreet-Kaur/)
+🔗 **Live Demo:** https://kaurmann.github.io/Manpreet-Kaur/
 
 ---
 
